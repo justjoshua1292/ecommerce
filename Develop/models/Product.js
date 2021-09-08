@@ -11,18 +11,18 @@ Product.init(
   {
     // define columns
     product_name:{
-      type: Sequelize.STRING
+      type: DataTypes.STRING
     },
 
     price:{
-      type: Sequelize.DOUBLE
+      type: DataTypes.DOUBLE
     },
     stock:{
-      type: Sequelize.INT
+      type: DataTypes.INTEGER
     },
 
     category_id:{
-      type: Sequelize.INT
+      type: DataTypes.INTEGER
     },
   },
 
